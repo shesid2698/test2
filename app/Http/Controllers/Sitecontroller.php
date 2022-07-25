@@ -12,5 +12,8 @@ class Sitecontroller extends Controller
     {
         return 'debug';
     }
-    12315644
+    public function a12315644()
+    {
+        return 55;
+    }
 }
