@@ -9,11 +9,16 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js' integrity='sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==' crossorigin='anonymous'></script>
 </head>
 <body>
-  <div>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
       <h1>這是index頁面，也是{{$name}}的家</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quisquam quod nobis dicta asperiores quas deserunt dolorem facilis ducimus, placeat assumenda dignissimos consectetur officiis, consequatur, ut perferendis odit molestiae itaque?</p>
-      <img src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+      </div>
+      <div class="col-4">
+        <img src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="img-fluid">
+      </div>
+    </div>
   </div>
-
 </body>
 </html>
