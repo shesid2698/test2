@@ -17,4 +17,8 @@ class Sitecontroller extends Controller
         $name = '何韋賢';
         return view('index.index', compact('name'));
     }
+    public function about()
+    {
+        return view('about.about_index');
+    }
 }
