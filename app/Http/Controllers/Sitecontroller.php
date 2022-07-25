@@ -12,8 +12,9 @@ class Sitecontroller extends Controller
     {
         return 'debug';
     }
-    public function a12315644()
+    public function index()
     {
-        return 55;
+        $name = '何韋賢';
+        return view('index.index', compact('name'));
     }
 }
