@@ -8,4 +8,5 @@ class Sitecontroller extends Controller
     {
         return 'hi';
     }
+    function bug
 }
